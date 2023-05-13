@@ -1,0 +1,17 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const token = 'MTEwNjc2NjM1MDMxMzA3MDYzMg.GcgjdM.JkyweDSrc5rl3RVZ4Yj7pR-6pSMAzDBRPl7U2Y';
+
+client.on('ready', () => {
+  console.log(`Bot iniciado como ${client.user.tag}!`);
+});
+
+client.on('message', message => {
+  if (message.content === '!miki') {
+    message.channel.send('shila');
+  } else if (message.content === '!shila') {
+    message.channel.send('nibba');
+  }
+});
+
+client.login(token);
