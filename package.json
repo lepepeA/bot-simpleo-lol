@@ -1,0 +1,10 @@
+{
+  "name": "miki",
+  "version": "1.0.0",
+  "description": "Un bot simple para responder a los comandos !miki y !shila",
+  "main": "index.js",
+  "author": "kme",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  }
+}
